@@ -50,12 +50,12 @@ $ cd kafka_2.13-2.8.0
 
 #### 3.Open the folder where Apache Kafka is installed and Start Apache Zookeeper
 ```bash
-.bin/zookeeper-server-start.sh ../config/zookeeper.properties
+$ bin/zookeeper-server-start.sh ../config/zookeeper.properties
 
 ```
 #### 4. Start the Kafka server
 ```bash
-.bin/kafka-server-start.sh ../config/server.properties
+ $ bin/kafka-server-start.sh ../config/server.properties
 ```
 
 
